@@ -1,0 +1,6 @@
+<script src="<?=base_url("assets/js/jquery-1.11.1.min.js");?>"></script>
+<script>
+$.getJSON('//freegeoip.net/json/?callback=?', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+});
+</script>
